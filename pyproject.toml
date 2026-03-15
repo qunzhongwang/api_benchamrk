@@ -1,0 +1,9 @@
+[project]
+name = "api-call"
+version = "0.1.0"
+description = "High-concurrency API stress tester for OpenAI-compatible endpoints"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0.0",
+    "rich>=13.0.0",
+]

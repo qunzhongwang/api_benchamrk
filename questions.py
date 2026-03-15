@@ -1,0 +1,123 @@
+"""Synthetic dataset of ~100 random questions for API concurrency testing."""
+
+QUESTIONS = [
+    # --- Programming & CS ---
+    "Write a Python function to check if a string is a palindrome.",
+    "Explain the difference between a stack and a queue.",
+    "Write a Java function to convert a binary number to a decimal number.",
+    "What is the time complexity of merge sort?",
+    "Write a recursive function to compute the Fibonacci sequence in Python.",
+    "Explain how a hash table works internally.",
+    "Write a SQL query to find the second highest salary in an employees table.",
+    "What is the difference between TCP and UDP?",
+    "Write a C++ function to reverse a linked list.",
+    "Explain the concept of dynamic programming with an example.",
+    "Write a Python function to find all prime numbers up to N using the Sieve of Eratosthenes.",
+    "What is the difference between a process and a thread?",
+    "Write a function to detect a cycle in a linked list.",
+    "Explain how garbage collection works in Java.",
+    "Write a Python decorator that logs function execution time.",
+    "What is the CAP theorem in distributed systems?",
+    "Write a bash script that finds all files larger than 100MB in a directory.",
+    "Explain the difference between REST and GraphQL.",
+    "Write a function to implement binary search on a sorted array.",
+    "What are ACID properties in databases?",
+
+    # --- Math & Logic ---
+    "Prove that the square root of 2 is irrational.",
+    "What is the derivative of x^3 * sin(x)?",
+    "Explain the Monty Hall problem and its solution.",
+    "What is Bayes' theorem and give a practical example?",
+    "Solve the integral of e^(-x^2) from 0 to infinity.",
+    "Explain the difference between permutations and combinations.",
+    "What is the eigenvalue decomposition of a matrix?",
+    "Explain the central limit theorem in simple terms.",
+    "What is the difference between correlation and causation?",
+    "Solve: If 3x + 7 = 22, what is x?",
+
+    # --- Science ---
+    "Explain how CRISPR gene editing works.",
+    "What is the difference between nuclear fission and fusion?",
+    "Explain the theory of general relativity in simple terms.",
+    "How does an mRNA vaccine work?",
+    "What is quantum entanglement?",
+    "Explain the process of photosynthesis step by step.",
+    "What is the Heisenberg uncertainty principle?",
+    "How do black holes form?",
+    "Explain the difference between DNA and RNA.",
+    "What is the Standard Model of particle physics?",
+
+    # --- History & Geography ---
+    "What were the main causes of World War I?",
+    "Explain the significance of the Silk Road in history.",
+    "What was the Renaissance and why was it important?",
+    "Describe the fall of the Roman Empire.",
+    "What were the key events of the French Revolution?",
+    "Explain the Cold War in 5 sentences.",
+    "What is the significance of the Magna Carta?",
+    "Describe the Industrial Revolution and its impact on society.",
+    "What were the main causes of the American Civil War?",
+    "Explain the history of the Internet in brief.",
+
+    # --- Philosophy & Ethics ---
+    "What is the trolley problem and what does it reveal about ethics?",
+    "Explain Plato's Allegory of the Cave.",
+    "What is the difference between utilitarianism and deontological ethics?",
+    "Explain Descartes' 'I think, therefore I am'.",
+    "What is the ship of Theseus paradox?",
+    "Explain Nietzsche's concept of the Übermensch.",
+    "What is existentialism?",
+    "Explain the concept of free will vs determinism.",
+    "What is Occam's Razor?",
+    "Explain John Rawls' Theory of Justice.",
+
+    # --- Creative & Fun ---
+    "Write a short poem about the ocean at sunset.",
+    "Explain why cats always land on their feet.",
+    "Write a haiku about programming.",
+    "If you could have dinner with any historical figure, who and why?",
+    "Write a short story in exactly 50 words about a robot learning to love.",
+    "Explain the rules of chess to a 5-year-old.",
+    "What would happen if the moon disappeared?",
+    "Write a limerick about a programmer debugging code.",
+    "Explain the butterfly effect with a creative example.",
+    "If aliens visited Earth, what would surprise them most about humans?",
+
+    # --- Technology & AI ---
+    "Explain how a transformer neural network works.",
+    "What is the difference between supervised and unsupervised learning?",
+    "Explain blockchain technology in simple terms.",
+    "What are the ethical concerns around artificial intelligence?",
+    "How does a convolutional neural network process images?",
+    "Explain the concept of transfer learning in ML.",
+    "What is the difference between AI, ML, and deep learning?",
+    "Explain how recommendation systems work (e.g., Netflix, Spotify).",
+    "What is federated learning and why is it useful?",
+    "Explain the attention mechanism in transformers.",
+
+    # --- Practical / How-to ---
+    "How do I set up a Python virtual environment?",
+    "Explain how to use git rebase vs git merge.",
+    "How do I write a Dockerfile for a Python Flask app?",
+    "Explain how to set up SSH key authentication.",
+    "How do I profile and optimize a slow Python script?",
+    "Explain how to configure nginx as a reverse proxy.",
+    "How do I set up a GitHub Actions CI/CD pipeline?",
+    "Explain how to use Docker Compose for multi-container apps.",
+    "How do I implement JWT authentication in a REST API?",
+    "Explain how to set up a PostgreSQL database with connection pooling.",
+
+    # --- Bonus round ---
+    "Summarize the plot of '1984' by George Orwell.",
+    "What is the prisoner's dilemma in game theory?",
+    "Explain how compilers work at a high level.",
+    "What is the difference between compiled and interpreted languages?",
+    "Explain MapReduce with a simple example.",
+    "What is a Turing machine and why is it important?",
+    "Explain the P vs NP problem in simple terms.",
+    "What is the halting problem?",
+    "Write a regular expression to validate an email address.",
+    "Explain how public-key cryptography works.",
+]
+
+assert len(QUESTIONS) == 100, f"Expected 100 questions, got {len(QUESTIONS)}"
